@@ -1,0 +1,2 @@
+rootProject.name='BtcPriceA'
+include ':app'
