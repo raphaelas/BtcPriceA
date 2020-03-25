@@ -51,14 +51,14 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
         val symbol1 = parsedJson1.data.first().symbol
         val price1 = parsedJson1.data.first().quote.USD.price
         symbolLabel1View.text = String.format("%s -> USD", symbol1)
-        price1View.text = String.format("$%s", price1)
+        price1View.text = String.format("$%s", DecimalFormat("#0.00").format(price1))
 
         val symbolLabel2View = findViewById<TextView>(R.id.symbol_label2)
         val price2View = findViewById<TextView>(R.id.price2)
 
         val symbol2 = parsedJson2.data.first().symbol
         val price2 = parsedJson2.data.first().quote.BTC.price
-        symbolLabel2View.text = String.format("%s -> %s", symbol1, symbol2)
+        symbolLabel2View.text = String.format("%s -> %s", symbol2, symbol1)
         price2View.text = DecimalFormat("#0.00000000").format(price2)
     }
 
