@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BtcPrice</string>
+    <string name="symbol_label1">Sym1 -> USD</string>
+    <string name="price1">$0</string>
+    <string name="symbol_label2">Sym2 -> Sym1</string>
+    <string name="price2">0.0</string>
+    <string name="refresh">Refresh</string>
 </resources>
