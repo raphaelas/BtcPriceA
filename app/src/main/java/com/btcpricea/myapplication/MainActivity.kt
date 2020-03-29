@@ -1,11 +1,10 @@
-package com.example.myapplication
+package com.btcpricea.myapplication
 
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.btcpricea.myapplication.CurrencyListingsJsonOuter
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException
 import com.google.android.gms.common.GooglePlayServicesRepairableException
 import com.google.android.gms.security.ProviderInstaller
